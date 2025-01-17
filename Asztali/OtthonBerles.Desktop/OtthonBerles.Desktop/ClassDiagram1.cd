@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="OtthonBerles.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAAAAAAAAAAAAAAAAAAAACAIBQAAAgAAAAAAAA=</HashCode>
+      <FileName>Views\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OtthonBerles.DBLayer.CustomersDA">
+    <Position X="17" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAUAAAAAAAg=</HashCode>
+      <FileName>DBLayer\CustomersDA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OtthonBerles.Helper.DBHelper">
+    <Position X="25.25" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAAAAAAAAAQAAAABAAAAAQAAAAAAAAQAAAEAAAg=</HashCode>
+      <FileName>Helper\DBHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OtthonBerles.Model.Customer">
+    <Position X="7.5" Y="0.5" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAAAAAAAQAAAAEAAQABAAEAAAAAAAAAAAAAgQ=</HashCode>
+      <FileName>Model\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  
+  <Class Name="OtthonBerles.Views.LoginWindow" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Views\LoginWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="OtthonBerles.Views.ModifyAdvertiserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OtthonBerles.Views"
+        mc:Ignorable="d"
+        Height="293" Width="360.0">
+    <Grid Background="{DynamicResource backgroundPrimaryColor}">
+        <Label FontFamily="Arial black" Content="Hirdető adatainak módosítása"
+               HorizontalAlignment="Left" HorizontalContentAlignment="Center" Height="35" Margin="10,10,0,0" VerticalAlignment="Top" Width="334" FontSize="18" FontWeight="SemiBold" TextOptions.TextFormattingMode="Display" Background="{DynamicResource colorMidleGreen}"/>
+        <Grid HorizontalAlignment="Left" Height="140" Margin="30,50,0,0" VerticalAlignment="Top" Width="294">
+            <TextBox x:Name="advertiserFullNameTextBox" HorizontalAlignment="Left" Height="24" Margin="116,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Background="{DynamicResource plainTextColor1}" />
+            <Label FontFamily="Arial black" Content="Email:" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Height="24" Margin="11,39,0,0" VerticalAlignment="Top" Width="100" Background="{DynamicResource titleColor1}"/>
+            <TextBox x:Name="advertiserEmailTextBox" HorizontalAlignment="Left" Height="24" Margin="116,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Background="{DynamicResource plainTextColor1}"/>
+            <Label FontFamily="Arial black" Content="Teljes név:" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Height="24" Margin="11,14,0,0" VerticalAlignment="Top" Width="100" Background="{DynamicResource titleColor1}" BorderBrush="{DynamicResource titleColor2}"/>
+            <Label FontFamily="Arial black" Content="Jelszó:" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Height="24" Margin="11,66,0,0" VerticalAlignment="Top" Width="100" Background="{DynamicResource titleColor1}"/>
+            <TextBox x:Name="advertiserPasswordTextBox" HorizontalAlignment="Left" Height="24" Margin="116,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Background="{DynamicResource plainTextColor1}"/>
+            <Label FontFamily="Arial black" Content="Cég név:" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Height="27" Margin="11,93,0,0" VerticalAlignment="Top" Width="100" Background="{DynamicResource titleColor1}"/>
+            <TextBox x:Name="advertiserCompanyNameTextBox" HorizontalAlignment="Left" Height="27" Margin="116,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Background="{DynamicResource plainTextColor1}"/>
+
+        </Grid>
+        <Button FontFamily="Arial black" x:Name="modifyAdvertiserpageButton" Content="Módosítás" Height="31" Margin="110,207,109.6,0" VerticalAlignment="Top" Click="modifyAdvertiserpageButton_Click" Grid.ColumnSpan="2" Background="{DynamicResource colorMidleGreen}"/>
+
+    </Grid>
+</Window>
