@@ -1,4 +1,4 @@
-# otthonberles-mosenlechner-miklos-szabo
+# otthonberles-miklos
 A projekt az ingatlan bérlés köré épül. A desktop c# nyelven íródott és magában foglalja a backend részt. A web vue.js javascript keretrendszerben íródott, a hozzá tartozó backend egy Node.js express keretrendszer, ennek segítségével tud kapcsolódni a desktop által generált MySQL adatbázishoz a weboldal.  
 
 Mindkét projekthez szükséges:
